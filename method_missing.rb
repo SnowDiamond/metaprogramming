@@ -1,26 +1,19 @@
-
 class DS
-  def initialize
-  end
-
+  
   def get_cpu_info(workstation_id)
-    "cpu is good"
+         Helllo!    "cpu is good"
   end
   
   def get_cpu_price(workstation_id)
     "cpu price 400"
   end
   
-  def get_mouse_info(workstation_id)
-    "mous is good"
-  end
   
   def get_mouse_price(workstation_id)
     "moust price 399"
   end
-  
   def get_keyboard_info(workstation_id)
-    "keyboard is good"
+    "keyboard i hello wwwwww !!!!!! s good"
   end
   
   def get_keyboard_price(workstation_id)
@@ -41,7 +34,6 @@ class Ketchup
     puts "I cant #{name}! I'm ketchup!"
   end
 end
-
 ketchup = Ketchup.new
 ketchup.talk
 
